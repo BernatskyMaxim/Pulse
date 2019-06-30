@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
@@ -68,7 +69,7 @@
                 </div>
 
                 <div class="advantages__item">
-                    <img src="img/adv_icon2.png" alt="heart" class="advantages__icon">
+                    <img src="img/adv_icon2.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
                         здоровью и были в радость Вам и Вашим близким!</div>
@@ -99,7 +100,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -113,7 +114,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -384,7 +385,7 @@
     <section class="reviews">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="reviews__item">
+            <div class="reviews__item wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed_1.png" alt="photo" class="reviews__img">
                 <div class="reviews__text">
                     <div class="reviews__subtitle">Ирина Иванченко</div>
@@ -399,7 +400,7 @@
                     </div>
                 </div>
             </div>
-            <div class="reviews__item">
+            <div class="reviews__item wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed_2.png" alt="photo" class="reviews__img">
                 <div class="reviews__text">
                     <div class="reviews__subtitle">Иван Сёмочкин</div>
@@ -414,7 +415,7 @@
                     </div>
                 </div>
             </div>
-            <div class="reviews__item">
+            <div class="reviews__item wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/feed_3.png" alt="photo" class="reviews__img">
                 <div class="reviews__text">
                     <div class="reviews__subtitle">Юлия Дашкина</div>
@@ -501,6 +502,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
