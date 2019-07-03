@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .consultation {
+        display: flex;
+        .title {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            justify-content: space-around;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            
+        }
+        .catalog-item {
+            margin-left: 10px;
+        }
+    }
+    .pageup {
+        right: 60px;
+        bottom: 117px;
+    }
+}
+
